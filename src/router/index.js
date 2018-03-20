@@ -13,7 +13,7 @@ export default new Router({
       component: HelloWorld
     },
     {
-    	path:'/Bank',
+    	path:'/cep',
     	name:'Bancodedados',
     	component: Bancodedados
     }
