@@ -110,7 +110,7 @@ export default{
 	justify-content: flex-start;
 	align-items: flex-start;
 	align-content: flex-start;
-	background-color: #b2b2b2;	
+	background-color: #b2b2b2 ;	
 }
 .texto{
 	width: 80px;
@@ -118,7 +118,7 @@ export default{
 	font-size: 1.5em;
 	display: inline;
 	margin-top: 40px;
-}
+} 
 .dados-input{
 	width: 250px;
 	height: 5% ;
@@ -127,7 +127,7 @@ export default{
 	border-radius: 5px;	
 	display: inline;
 	background-color: white;
-	color: #737373;
+	color: #737373 ;
 	border:none;
 	margin-top: 40px;
 }

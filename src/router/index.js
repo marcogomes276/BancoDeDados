@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import Bancodedados from '@/components/Bancodedados'
+import Cep from '@/components/Cep'
 
 Vue.use(Router)
 
@@ -13,9 +14,14 @@ export default new Router({
       component: HelloWorld
     },
     {
-    	path:'/cep',
+    	path:'/bancodedados',
     	name:'Bancodedados',
     	component: Bancodedados
+    },
+    {
+      path:'/cep',
+      name: 'Cep',
+      component: Cep
     }
   ]
 })
