@@ -9,7 +9,7 @@
 			</section>
 			<section class="dados">
 				<p class="texto">Cep:</p>
-				<input type="text" v-model="cep" v-on:keyup.enter="getData()" class="dados-input" placeholder="escreva seu CEP">
+				<input type="text" v-model="cep" v-on:keyup.enter="getData()" class="dados-input" placeholder="Escreva seu cep e aperte Enter.">
 				<p class="texto">Rua:</p>
 				<input type="text" v-model="rua" class="dados-input">
 				<p class="texto">Bairro:</p>
@@ -131,6 +131,9 @@ export default{
 	border:none;
 	margin-top: 40px;
 }
+.dados-input::placeholder{
+	font-size: 16px;
+}
 .botao{
 	width: 90px;
 	height: 40px;
@@ -138,6 +141,7 @@ export default{
 	border: none;
 	margin: 10px;
 	margin-left: 100px;
+	font-size: 20px;
 }
 .salvar{
 	background-color: #52dee5;
